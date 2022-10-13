@@ -16,7 +16,7 @@ spec:
   replicas: {{int .Values.replicas}}
   selector:
     matchLabels:
-      app: jhttp
+      app: dotnet-sample
   template:
     metadata:
       labels:
